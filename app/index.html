@@ -17,6 +17,26 @@
   <body>
     {{content-for 'body'}}
 
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">My Static Site</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="http://blog.current.sh/using-ember-cli-as-a-single-page-static-site-generator">
+              Read the blog post
+          </a></li>
+          <li><a href="http://github.com/jlsuttles/my-static-site">
+            See the code on GitHub
+          </a></li>
+        </ul>
+      </section>
+    </nav>
+
     <script src="assets/vendor.js"></script>
     <script src="assets/my-static-site.js"></script>
 
